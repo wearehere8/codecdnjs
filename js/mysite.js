@@ -3,7 +3,7 @@
 // /*添加到返回顶部按钮下*/
 // document.getElementById("go-up").innerHTML += top_up;
 /*---添加图片top*/
-
+btf.isJqueryLoad(function() {
 // 气泡---
 function qipao() {
     $('#page-header').circleMagic({
@@ -49,6 +49,7 @@ function qipao() {
     }
 }(jQuery);
 qipao();
+}}
 
 $(document).on('pjax:start', function () {
     if (window.dplayers) {
