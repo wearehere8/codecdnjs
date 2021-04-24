@@ -50,11 +50,11 @@ function qipao() {
 qipao();
 
 $(document).on('pjax:start', function () {
-    if (window.dplayers) {
-        for (let i = 0; i < window.dplayers.length; i++) {
-            window.dplayers[i].destroy();
+    if (window.mmedia) {
+        for (let i = 0; i < window.mmdeia.length; i++) {
+            window.mmdeia[i].destroy();
         }
-        window.dplayers = [];
+        window.mmdeia = [];
     }
 });
-dplayers();
+mmdeia();
