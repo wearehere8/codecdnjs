@@ -49,6 +49,7 @@ function qipao() {
 }(jQuery);
 qipao();
 
+/*
 $(document).on('pjax:start', function () {
     if (window.mmedia) {
         for (let i = 0; i < window.mmdeia.length; i++) {
@@ -58,3 +59,4 @@ $(document).on('pjax:start', function () {
     }
 });
 mmdeia();
+*/
